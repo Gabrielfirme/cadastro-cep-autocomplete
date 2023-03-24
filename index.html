@@ -15,11 +15,32 @@
 <body id="checkout-page">
     <div id="fade" class="hide">
         <div id="loader" class="spinner-border text-info hide" role="status">
-            
+            <span class="visually-hidden">Loading...</span>
 
         </div>
+        <div id="message" class="hide">
+            <div class="alert alert-light" role="alert">
+                <h4>Mensagem :</h4>
+                <p>Mensgame a ser exibida</p>
+                <button id="clone-message" type="button" class="btn btn-secondary">
+                    Fechar
+                </button>
+            </div>
+        </div>
+
     </div>
-   
+
+
+   <div id="order-form-container" class="container px-md-0">
+        <div id="steps" class="mb-md-3 pb-md-3">
+            <div class="line"></div>
+            <div class="step">
+                <i class="bi bi-person active"></i>
+                <p class="d-none d-md-block">Criação de conta </p>
+
+            </div>
+        </div>
+   </div>
     
 </body>
 </html>
