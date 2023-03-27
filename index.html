@@ -57,9 +57,47 @@
         <form id="addres-form">
             <div class="row mb-3">
                 <div class="form-floating">
-                    <input type="text" class="form-control shadow-none" id="cep" name="cep" placeholder="Digite neste campo seu cep" minlength="8" maxlength="8">
+                    <input type="text" 
+                    class="form-control shadow-none" 
+                    id="cep" 
+                    name="cep" 
+                    placeholder="Digite neste campo seu cep" 
+                    minlength="8" 
+                    maxlength="8"
+                    required
+                    />
+                    <label for="cep"> Digite o seu Cep</label>
                 </div>
                 
+            </div>
+            <div class="row mb-3">
+                <div class="form-floating col-12 col-sm-6 mb-3 mb-sm-0">
+                    <input type="text" 
+                    class="form-control shadow-none" 
+                    id="addres" 
+                    name="addres" 
+                    placeholder="Rua" 
+                    disabled
+                    required
+                    data-input
+                    
+                    />
+                    <label for="addres"> Rua </label>
+                </div>
+            <div class="form-floating col-12 col-sm-6">
+                <input type="text" 
+                class="form-control shadow-none" 
+                id="number" 
+                name="number" 
+                placeholder="Rua" 
+                disabled
+                required
+                data-input
+                
+                />
+                <label for="number"> N° da residência </label>
+            </div>
+        
             </div>
         </form>
    </div>
