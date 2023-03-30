@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 :root {
-    --bg-color: #969696a1;
+    --bg-color: #0325335d;
     --secondary-bg-color: #494a7d;
     --primary-color: #fff;
     --secondary-color: #777777;
@@ -52,7 +52,7 @@ h2{
     padding: 1.2rem 0;
   }
 
-  /*steps*/
+  /*passo-a-passo */
 
   #ordem-de-formulario-container{
     padding:1.5em;
@@ -104,7 +104,7 @@ h2{
 
 }
 
-/*form header*/
+/*formulário do cabeçalho*/
 
 #form-header p{
   color: var(--text-color);
@@ -112,7 +112,7 @@ h2{
 
 }
 
-/*form*/
+/*formulário*/
 #ordem-de-formulario-container{
   max-width: 700px;
 }
@@ -151,7 +151,4 @@ h2{
   height: 3em;
   width: 9em;
   border-radius: 1.5em;
-  margin-top: .5rem;
-  margin-bottom: 1rem;
-
 }
